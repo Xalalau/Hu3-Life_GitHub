@@ -45,3 +45,31 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#Half-Life user generated files
+buffer.dat
+*.exp
+*.ilk
+*.iobj
+*.ipdb
+*.lib
+config.cfg
+custom.hpk
+logos/*
+maps/graphs/*
+remapped.bmp
+SAVE/*
+tempdecal.wad
+voice_ban.dt
+
+#Don't ignore the default version of these; users need to copy those.
+settings.scr
+user.scr
+
+#Map compiler output
+*.ext
+maps/*.log
+*.prt
+*.wa_
+#Commit map files in the code repo's gamerc/mapsrc directory
+*.map
