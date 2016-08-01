@@ -57,6 +57,7 @@ config.cfg
 custom.hpk
 logos/*
 maps/graphs/*
+logs/*
 remapped.bmp
 SAVE/*
 tempdecal.wad
