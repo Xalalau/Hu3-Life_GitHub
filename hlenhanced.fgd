@@ -1714,7 +1714,21 @@
 // items
 //
 
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) = item_airtank : "Oxygen tank" []
+@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) = item_airtank : "Oxygen tank"
+[
+	//Whether to disable accumulative recharge. If enabled, recharge time is base time + air time.
+	//If disabled, it's base time.
+	DisableAccumRecharge(choices) : "Disable Accummulative Recharge" : 0 = 
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	AirTime(string) : "Air Time" : 12
+	
+	BaseRechargeTime(string) : "Base Recharge Time" : 18
+]
+
 @PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) = item_antidote : "Poison antidote" []
 @PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) = item_battery : "HEV battery" []
 @PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) = item_healthkit : "Small Health Kit" []
