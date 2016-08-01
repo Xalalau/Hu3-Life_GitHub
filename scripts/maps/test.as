@@ -1,9 +1,20 @@
+
+#if SERVER_DLL
 class CMyGameRules : CScriptGameRules
 {
 	void Think()
 	{
 	}
 }
+
+bool InstallGameRules( string& out szName )
+{
+	//Use my gamerules class.
+	szName = "CMyGameRules";
+	
+	return true;
+}
+#endif
 
 void MapInit()
 {
@@ -13,12 +24,4 @@ void MapInit()
 void MapActivate()
 {
 	Engine.Alert( at_console, "Map activated\n" );
-}
-
-bool InstallGameRules( string& out szName )
-{
-	//Use my gamerules class.
-	szName = "CMyGameRules";
-	
-	return true;
 }
