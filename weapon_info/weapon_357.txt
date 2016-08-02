@@ -1,0 +1,9 @@
+"weapon_357"
+{
+	"bucket" "1"
+	"position" "1"
+	"primary_ammo" "357"
+	"max_magazine" "6"
+	"default_ammo" "6"
+	"weight" "15"
+}

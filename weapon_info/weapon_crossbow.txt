@@ -1,0 +1,9 @@
+"weapon_crossbow"
+{
+	"bucket" "2"
+	"position" "2"
+	"primary_ammo" "bolts"
+	"max_magazine" "5"
+	"default_ammo" "5"
+	"weight" "10"
+}

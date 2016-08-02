@@ -1,0 +1,11 @@
+"weapon_satchel"
+{
+	"bucket" "4"
+	"position" "1"
+	"primary_ammo" "Satchel Charge"
+	"default_ammo" "1"
+	"weight" "-10"
+	"flag" "SELECTONEMPTY"
+	"flag" "LIMITINWORLD"
+	"flag" "EXHAUSTIBLE"
+}

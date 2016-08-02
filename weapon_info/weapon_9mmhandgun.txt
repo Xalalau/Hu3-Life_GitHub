@@ -1,0 +1,9 @@
+"weapon_9mmhandgun"
+{
+	"bucket" "1"
+	"position" "0"
+	"primary_ammo" "9mm"
+	"max_magazine" "17"
+	"default_ammo" "17"
+	"weight" "10"
+}

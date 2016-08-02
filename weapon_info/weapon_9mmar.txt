@@ -1,0 +1,12 @@
+"weapon_9mmar"
+{
+	"bucket" "2"
+	"position" "0"
+	"primary_ammo" "9mm"
+	"secondary_ammo" "ARGrenades"
+	"max_magazine" "50"
+	"default_ammo" "25"
+	"weight" "15"
+	
+	"flag" "SELECTONEMPTY"
+}

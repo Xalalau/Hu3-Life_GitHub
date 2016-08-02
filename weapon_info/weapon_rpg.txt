@@ -1,0 +1,9 @@
+"weapon_rpg"
+{
+	"bucket" "3"
+	"position" "0"
+	"primary_ammo" "rockets"
+	"max_magazine" "1"
+	"default_ammo" "1"
+	"weight" "20"
+}

@@ -1,0 +1,10 @@
+"weapon_handgrenade"
+{
+	"bucket" "4"
+	"position" "0"
+	"primary_ammo" "Hand Grenade"
+	"default_ammo" "5"
+	"weight" "5"
+	"flag" "LIMITINWORLD"
+	"flag" "EXHAUSTIBLE"
+}

@@ -1,0 +1,9 @@
+"weapon_sniperrifle"
+{
+	"bucket" "5"
+	"position" "2"
+	"primary_ammo" "762"
+	"max_magazine" "5"
+	"default_ammo" "5"
+	"weight" "10"
+}

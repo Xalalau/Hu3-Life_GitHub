@@ -1,0 +1,8 @@
+"weapon_egon"
+{
+	"bucket" "3"
+	"position" "2"
+	"primary_ammo" "uranium"
+	"default_ammo" "20"
+	"weight" "20"
+}

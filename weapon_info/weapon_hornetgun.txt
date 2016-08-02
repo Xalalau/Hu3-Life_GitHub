@@ -1,0 +1,10 @@
+"weapon_hornetgun"
+{
+	"bucket" "3"
+	"position" "3"
+	"primary_ammo" "Hornets"
+	"default_ammo" "8"
+	"weight" "10"
+	"flag" "NOAUTOSWITCHEMPTY"
+	"flag" "NOAUTORELOAD"
+}

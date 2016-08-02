@@ -1,0 +1,10 @@
+"weapon_tripmine"
+{
+	"bucket" "4"
+	"position" "2"
+	"primary_ammo" "Trip Mine"
+	"default_ammo" "1"
+	"weight" "-10"
+	"flag" "LIMITINWORLD"
+	"flag" "EXHAUSTIBLE"
+}

@@ -1,0 +1,10 @@
+"weapon_snark"
+{
+	"bucket" "4"
+	"position" "3"
+	"primary_ammo" "Snarks"
+	"default_ammo" "5"
+	"weight" "5"
+	"flag" "LIMITINWORLD"
+	"flag" "EXHAUSTIBLE"
+}
