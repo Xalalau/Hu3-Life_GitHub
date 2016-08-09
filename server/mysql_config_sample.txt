@@ -1,0 +1,18 @@
+//
+//	This file defines MySQL configuration data.
+//	This is a sample of the file used for MySQL configurations. The default file used by servers is named default_mysql_config.txt.
+//	Copy this file and rename it to that to use the default settings.
+//
+//	To use another configuration file, set the as_mysql_config cvar to the path and name of the file, including the extension.
+//	E.g. The default file is set to server/default_mysql_config.txt
+//
+
+//	This defines the default configuration for MySQL connections made by scripts.
+//	This is only an example and will not work on any servers that have been properly configured.
+//	If it does work, please configure your MySQL server correctly.
+"default_mysql_connection"
+{
+	"host" "localhost:3306"
+	"user" "root"
+	"pass" ""
+}
