@@ -57,6 +57,10 @@
 	]
 	
 	mapscript(string) : "Map Script"
+	
+	primary_hud_color(color255) : "Primary Hud Color"
+	empty_item_color(color255) : "Empty Item Color"
+	ammo_bar_color(color255) : "Ammo Bar Color"
 ]
 
 //
@@ -2135,6 +2139,19 @@
 //
 // player effects
 //
+
+@PointClass base(Targetname) size( -16 -16 -16, 16 16 16) = player_hudcolors : "Change Player Hud Colors"
+[
+	spawnflags(Flags) = 
+	[
+		1 : "All Players" : 0
+		2 : "Reset To Global" : 0
+	]
+	
+	primary_hud_color(color255) : "Primary Hud Color"
+	empty_item_color(color255) : "Empty Item Color"
+	ammo_bar_color(color255) : "Ammo Bar Color"
+]
 
 @PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_loadsaved : "Load Auto-Saved game" 
 [
