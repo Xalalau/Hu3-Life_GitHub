@@ -31,7 +31,8 @@ void CreateSQLConnection()
 		SQLiteQueryCompleted
 	);
 	
-	@g_pMySQLConnection = SQL::CreateMySQLConnection( "localhost", "root", "", "TestDB" );
+	//@g_pMySQLConnection = SQL::CreateMySQLConnection( "localhost", "root", "", "TestDB" );
+	@g_pMySQLConnection = SQL::CreateMySQLConnectionWithDefaults( "TestDB" );
 	
 	g_pMySQLConnection.Query( "SELECT * FROM Test", MySQLQueryCompleted );
 }
