@@ -78,5 +78,8 @@ maps/*.log
 #SQL support
 *.sqlite
 
-#Sefault server MySQL config
+#Default server MySQL config
 server/default_mysql_config.txt
+
+#Screenshots
+*.bmp
