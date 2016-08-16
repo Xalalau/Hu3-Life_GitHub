@@ -61,6 +61,8 @@
 	primary_hud_color(color255) : "Primary Hud Color"
 	empty_item_color(color255) : "Empty Item Color"
 	ammo_bar_color(color255) : "Ammo Bar Color"
+	
+	global_model_replacement(string) : "Global Model Replacement"
 ]
 
 //
