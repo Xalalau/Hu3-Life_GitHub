@@ -1,0 +1,9 @@
+"weapon_eagle"
+{
+	"bucket" "1"
+	"position" "2"
+	"primary_ammo" "357"
+	"max_magazine" "7"
+	"default_ammo" "7"
+	"weight" "15"
+}
