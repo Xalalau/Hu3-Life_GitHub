@@ -1,0 +1,9 @@
+"weapon_m249"
+{
+	"bucket" "5"
+	"position" "0"
+	"primary_ammo" "556"
+	"max_magazine" "50"
+	"default_ammo" "50"
+	"weight" "20"
+}
