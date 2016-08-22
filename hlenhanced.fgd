@@ -2511,6 +2511,7 @@
 @PointClass base(Weapon, Targetx) = weapon_handgrenade : "Handgrenade Ammo" []
 @PointClass base(Weapon, Targetx) = weapon_snark : "Squeak Grenade" []
 @PointClass base(Weapon, Targetx) = weapon_hornetgun : "Hornet Gun" []
+@PointClass base(Weapon, Targetx) = weapon_knife : "Knife" []
 @PointClass base(Weapon, Targetx) = weapon_pipewrench : "Pipe Wrench" []
 @PointClass base(Weapon, Targetx) = weapon_sniperrifle : "Sniper Rifle" []
 @PointClass base(Weapon, Targetx) = weapon_m249 : "M249" []
