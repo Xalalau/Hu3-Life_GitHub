@@ -1,0 +1,6 @@
+"weapon_grapple"
+{
+	"bucket" "0"
+	"position" "3"
+	"weight" "21"
+}
