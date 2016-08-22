@@ -2517,6 +2517,7 @@
 @PointClass base(Weapon, Targetx) = weapon_sniperrifle : "Sniper Rifle" []
 @PointClass base(Weapon, Targetx) = weapon_m249 : "M249" []
 @PointClass base(Weapon, Targetx) = weapon_eagle : "Desert Eagle" []
+@PointClass base(Weapon, Targetx) = weapon_shockrifle : "Shock Rifle" []
 
 @PointClass size(-16 -16 0, 16 16 64) color(0 128 0) =  weaponbox : "Weapon/Ammo Container" []
 
