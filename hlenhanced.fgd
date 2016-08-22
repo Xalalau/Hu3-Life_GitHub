@@ -2513,6 +2513,7 @@
 @PointClass base(Weapon, Targetx) = weapon_hornetgun : "Hornet Gun" []
 @PointClass base(Weapon, Targetx) = weapon_knife : "Knife" []
 @PointClass base(Weapon, Targetx) = weapon_pipewrench : "Pipe Wrench" []
+@PointClass base(Weapon, Targetx) = weapon_grapple : "Barnacle Grapple" []
 @PointClass base(Weapon, Targetx) = weapon_sniperrifle : "Sniper Rifle" []
 @PointClass base(Weapon, Targetx) = weapon_m249 : "M249" []
 @PointClass base(Weapon, Targetx) = weapon_eagle : "Desert Eagle" []
