@@ -1,0 +1,10 @@
+"weapon_shockrifle"
+{
+	"bucket" "6"
+	"position" "1"
+	"primary_ammo" "shock_rounds"
+	"default_ammo" "10"
+	"weight" "15"
+	"flag" "NOAUTOSWITCHEMPTY"
+	"flag" "NOAUTORELOAD"
+}
