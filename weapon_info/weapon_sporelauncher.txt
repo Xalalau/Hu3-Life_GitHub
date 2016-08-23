@@ -1,0 +1,9 @@
+"weapon_sporelauncher"
+{
+	"bucket" "6"
+	"position" "0"
+	"primary_ammo" "spores"
+	"max_magazine" "5"
+	"default_ammo" "5"
+	"weight" "20"
+}
