@@ -616,6 +616,9 @@
 @PointClass base(Weapon, Targetx) = ammo_762 : "Sniper Rifle Ammo" []
 @PointClass base(Weapon, Targetx) = ammo_556 : "M249 Ammo" []
 
+//Spore ammo orientation refers to the direction that the base of the plant faces
+@PointClass base(Weapon, Targetx, RenderFields) color(200 200 50) = ammo_spore : "Spore" []
+
 @SolidClass base(Target, ZHLT) = button_target : "Target Button"
 [
 	spawnflags(flags) =
