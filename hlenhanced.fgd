@@ -2524,6 +2524,7 @@
 @PointClass base(Weapon, Targetx) = weapon_m249 : "M249" []
 @PointClass base(Weapon, Targetx) = weapon_displacer : "Displacer Cannon" []
 @PointClass base(Weapon, Targetx) = weapon_eagle : "Desert Eagle" []
+@PointClass base(Weapon, Targetx) = weapon_sporelauncher : "Spore Launcher" []
 @PointClass base(Weapon, Targetx) = weapon_shockrifle : "Shock Rifle" []
 
 @PointClass base(Weapon, Targetx) = weapon_shockrifle : "Shock Rifle" []
