@@ -1,0 +1,10 @@
+"weapon_penguin"
+{
+	"bucket" "4"
+	"position" "4"
+	"primary_ammo" "Penguins"
+	"default_ammo" "3"
+	"weight" "5"
+	"flag" "LIMITINWORLD"
+	"flag" "EXHAUSTIBLE"
+}
