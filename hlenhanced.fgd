@@ -2523,13 +2523,12 @@
 @PointClass base(Weapon, Targetx) = weapon_knife : "Knife" []
 @PointClass base(Weapon, Targetx) = weapon_pipewrench : "Pipe Wrench" []
 @PointClass base(Weapon, Targetx) = weapon_grapple : "Barnacle Grapple" []
-@PointClass base(Weapon, Targetx) = weapon_sniperrifle : "Sniper Rifle" []
+@PointClass base(Weapon, Targetx) = weapon_eagle : "Desert Eagle" []
+@PointClass base(Weapon, Targetx) = weapon_penguin : "Penguin Grenade" []
 @PointClass base(Weapon, Targetx) = weapon_m249 : "M249" []
 @PointClass base(Weapon, Targetx) = weapon_displacer : "Displacer Cannon" []
-@PointClass base(Weapon, Targetx) = weapon_eagle : "Desert Eagle" []
+@PointClass base(Weapon, Targetx) = weapon_sniperrifle : "Sniper Rifle" []
 @PointClass base(Weapon, Targetx) = weapon_sporelauncher : "Spore Launcher" []
-@PointClass base(Weapon, Targetx) = weapon_shockrifle : "Shock Rifle" []
-
 @PointClass base(Weapon, Targetx) = weapon_shockrifle : "Shock Rifle" []
 
 @PointClass size(-16 -16 0, 16 16 64) color(0 128 0) =  weaponbox : "Weapon/Ammo Container" []
