@@ -1,0 +1,16 @@
+"plugins"
+{
+	"plugin"
+	{
+		"name" TestPlugin
+		script "TestPlugin"
+		lifetime MAP
+	}
+	
+	"plugin"
+	{
+		"name" TestPlugin2
+		script "TestPlugin"
+		lifetime HOTRELOADABLE
+	}
+}
