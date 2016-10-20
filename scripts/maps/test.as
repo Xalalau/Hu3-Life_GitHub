@@ -50,7 +50,7 @@ void MySQLQueryCompleted( MySQLQuery@ pQuery )
 
 void MapInit()
 {
-	Engine.Alert( at_console, "Map initialized! %1\n", Globals.mapname );
+	Engine.Alert( at_console, "Map initialized! %1\n", Globals.mapname.ToString() );
 	
 #if SERVER_DLL
 	CreateSQLConnection();
