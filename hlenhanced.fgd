@@ -2475,6 +2475,41 @@
 	speed(integer) : "Speed of push" : 40
 ]
 
+@PointClass base(Targetname, Targetx) = trigger_random : "Trigger Random"
+[
+	spawnflags(flags) = 
+	[
+		1 : "Unique" : 0
+		2 : "Timed" : 0
+		4 : "Reusable" : 0
+		8 : "Start On" : 0
+		16 : "Trigger Once" : 0
+	]
+	
+	targetCount(integer) : "Target count" : 0
+	
+	minTime(string) : "Minimum time delay" : 0
+	
+	maxTime(string) : "Maximum time delay" : 0
+	
+	target01(target_destination) : "Target 1"
+	target02(target_destination) : "Target 2"
+	target03(target_destination) : "Target 3"
+	target04(target_destination) : "Target 4"
+	target05(target_destination) : "Target 5"
+	target06(target_destination) : "Target 6"
+	target07(target_destination) : "Target 7"
+	target08(target_destination) : "Target 8"
+	target09(target_destination) : "Target 9"
+	target10(target_destination) : "Target 10"
+	target11(target_destination) : "Target 11"
+	target12(target_destination) : "Target 12"
+	target13(target_destination) : "Target 13"
+	target14(target_destination) : "Target 14"
+	target15(target_destination) : "Target 15"
+	target16(target_destination) : "Target 16"
+]
+
 @PointClass base(Targetname, Targetx) = trigger_relay : "Trigger Relay"
 [
 	spawnflags(flags) =
