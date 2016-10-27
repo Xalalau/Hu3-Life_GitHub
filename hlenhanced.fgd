@@ -2524,6 +2524,25 @@
 	]
 ]
 
+@PointClass base(Targetname, Targetx) = trigger_script : "Call Script Functions"
+[
+	functionName(string) : "Function to call on trigger"
+	thinkInterval(string) : "Time between thinks" : "0.1"
+	scriptCallMode(choices) : "Mode" : 0 =
+	[
+		0 : "Trigger"
+		1 : "Think"
+	]
+
+	spawnflags(flags) =
+	[
+		1 : "Start On (Think)" : 0
+		2 : "Check Plugins" : 0
+		4 : "Ignore Map Scripts" : 0
+		8 : "Call On Think State Changes" : 0
+	]
+]
+
 @SolidClass base(Trigger) = trigger_teleport : "Trigger teleport" []
 
 @SolidClass base(Targetname) = trigger_transition : "Trigger: Select Transition Area" []
