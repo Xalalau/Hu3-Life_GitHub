@@ -13,4 +13,11 @@
 		script "TestPlugin"
 		lifetime HOTRELOADABLE
 	}
+	
+	plugin
+	{
+		name CustomEntityTest
+		script CustomEntityTest
+		lifetime HOTRELOADABLE
+	}
 }
