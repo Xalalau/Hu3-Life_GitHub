@@ -19,3 +19,11 @@ void PluginMessage( CBaseEntity@ pActivator, CBaseEntity@ pCaller, USE_TYPE useT
 {
 	Engine.Alert( at_console, "Map script got triggered by a trigger_script that should be plugin only: Player %1 activated it\n", pActivator.GetNetName() );
 }
+
+namespace Test
+{
+void Func( CBaseEntity@ pActivator, CBaseEntity@ pCaller, USE_TYPE useType, float flValue )
+{
+	Engine.Alert( at_console, "Testing trigger_script call to namespace function\n" );
+}
+}
