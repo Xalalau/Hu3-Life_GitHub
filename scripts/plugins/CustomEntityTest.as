@@ -25,7 +25,11 @@ void MapInit()
 {
 	g_CustomEntities.RegisterCustomEntity( "custom_plugin_entity", "CPluginEntity" );
 	
-	g_CustomEntities.CreateCustomEntity( "custom_plugin_entity" );
+	CBaseEntity@ pEntity = g_CustomEntities.CreateCustomEntity( "custom_plugin_entity" );
+	
+	CPluginEntity@ pEnt = cast<CPluginEntity@>( CustomEnts::Cast( pEntity ) );
+	
+	Engine.Alert( at_console, "Entity is non-null: %1\n", pEnt !is null );
 	
 	//g_CustomEntities.UnregisterCustomEntity( "custom_plugin_entity", "CPluginEntity" );
 }
