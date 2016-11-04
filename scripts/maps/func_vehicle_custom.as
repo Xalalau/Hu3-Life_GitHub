@@ -119,7 +119,7 @@ class func_vehicle_custom : CCustomCBaseEntity
 		}
 
 		Engine.Alert(at_aiconsole, "TRAIN(%1): Blocked by %2 (dmg:%3)\n", self.GetTargetname(), pOther.GetClassname(), self.GetDamage());
-		MakeVectors(self.GetAbsAngles());
+		Math::MakeVectors(self.GetAbsAngles());
 
 		Vector vFrontLeft = (Globals.v_forward * -1) * (m_length * 0.5);
 		Vector vFrontRight = (Globals.v_right * -1) * (m_width * 0.5);
@@ -575,7 +575,7 @@ class func_vehicle_custom : CCustomCBaseEntity
 	void Next()
 	{
 		Vector vGravityVector = g_vecZero;
-		MakeVectors(self.GetAbsAngles());
+		Math::MakeVectors(self.GetAbsAngles());
 
 		Vector forward = (Globals.v_forward * -1) * (m_length * 0.5);
 		Vector right = (Globals.v_right * -1) * (m_width * 0.5);
@@ -663,7 +663,7 @@ class func_vehicle_custom : CCustomCBaseEntity
 			m_vVehicleDirection = CrossProduct(m_vSurfaceNormal, Globals.v_forward);
 			m_vVehicleDirection = CrossProduct(m_vSurfaceNormal, m_vVehicleDirection);
 
-			Vector angles = VecToAngles(m_vVehicleDirection);
+			Vector angles = Math::VecToAngles(m_vVehicleDirection);
 			angles.y += 180;
 
 			if (m_iTurnAngle != 0)
@@ -672,8 +672,8 @@ class func_vehicle_custom : CCustomCBaseEntity
 			angles = FixupAngles(angles);
 			self.SetAbsAngles( FixupAngles( self.GetAbsAngles() ) );
 
-			float vx = AngleDistance(angles.x, self.GetAbsAngles().x);
-			float vy = AngleDistance(angles.y, self.GetAbsAngles().y);
+			float vx = Math::AngleDistance(angles.x, self.GetAbsAngles().x);
+			float vy = Math::AngleDistance(angles.y, self.GetAbsAngles().y);
 
 			if (vx > 10)
 				vx = 10;
@@ -695,7 +695,7 @@ class func_vehicle_custom : CCustomCBaseEntity
 			m_flLastNormalZ = m_vSurfaceNormal.z;
 		}
 
-		VecToAngles(m_vVehicleDirection);
+		Math::VecToAngles(m_vVehicleDirection);
 
 		/*
 		if (Globals.time > m_flUpdateSound)
@@ -736,7 +736,7 @@ class func_vehicle_custom : CCustomCBaseEntity
 		m_ppath.LookAhead(look, look, m_length, true);
 		look.z += m_height;
 
-		Vector vecAngles = VecToAngles(look - nextPos);
+		Vector vecAngles = Math::VecToAngles(look - nextPos);
 		vecAngles.y += 180;
 
 		/*
@@ -817,7 +817,7 @@ class func_vehicle_custom : CCustomCBaseEntity
 			return false;
 		*/
 
-		MakeVectors(self.GetAbsAngles());
+		Math::MakeVectors(self.GetAbsAngles());
 		
 		Vector local;
 		local.x = DotProduct(offset, Globals.v_forward);

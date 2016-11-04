@@ -114,7 +114,7 @@ class CMyEntity : CCustomCBaseEntity
 			
 			for( uint uiIndex = 0; uiIndex < 10; ++uiIndex )
 			{
-				szStyle += szAlphabet.substr( RandomLong( 0, szAlphabet.length() - 1 ), 1 );
+				szStyle += szAlphabet.substr( Math::RandomLong( 0, szAlphabet.length() - 1 ), 1 );
 			}
 			
 			Effects::LightStyle( 0, szStyle );
