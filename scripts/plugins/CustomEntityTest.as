@@ -17,7 +17,6 @@ class CPluginEntity : CCustomCBaseEntity
 	
 	~CPluginEntity()
 	{
-		Engine.Alert( at_console, "destructing custom entity %1\n", self.GetClassname() );
 	}
 }
 

@@ -50,7 +50,6 @@ class CMyEntity : CCustomCBaseEntity
 	
 	~CMyEntity()
 	{
-		Engine.Alert( at_console, "destructing custom entity %1\n", self.GetClassname() );
 	}
 	
 	void Precache()
