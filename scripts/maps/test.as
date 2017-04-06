@@ -37,12 +37,12 @@ void CreateSQLConnection()
 	g_pMySQLConnection.Query( "SELECT * FROM Test", MySQLQueryCompleted );
 }
 
-void SQLiteQueryCompleted( SQLiteQuery@ pQuery )
+void SQLiteQueryCompleted( SQLQueryResult::SQLQueryResult result, SQLiteQuery@ pQuery )
 {
 	Engine.Alert( at_console, "SQLite Query completed\n" );
 }
 
-void MySQLQueryCompleted( MySQLQuery@ pQuery )
+void MySQLQueryCompleted( SQLQueryResult::SQLQueryResult result, MySQLQuery@ pQuery )
 {
 	Engine.Alert( at_console, "MySQL Query completed\n" );
 }
