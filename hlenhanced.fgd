@@ -108,6 +108,20 @@
 
 @BaseClass size(0 0 0, 32 32 32) color(80 0 200) base(Appearflags) = Ammo []
 
+@BaseClass = Classification
+[
+	//Classification override.
+	//Enter a name to use another default classification or custom classification defined by map config or script.
+	classificationOverride(string) : "Classification Override" : ""
+]
+
+@BaseClass = MonsterMakerClassification
+[
+	//Classification override for monster makers. Separate name to avoid changing the maker's class and making it a target.
+	//Enter a name to use another default classification or custom classification defined by map config or script.
+	makerClassificationOverride(string) : "Monster Classification Override" : ""
+]
+
 @BaseClass = Targetname 
 [ 
 	targetname(target_source) : "Name"
@@ -169,7 +183,7 @@
 
 @BaseClass base(Appearflags, Angles) size(-16 -16 -36, 16 16 36) color(0 255 0) = PlayerClass []
 
-@BaseClass base(Target, Targetname, RenderFields, Angles) color(0 200 200) = Monster 
+@BaseClass base(Target, Targetname, RenderFields, Angles, Classification) color(0 200 200) = Monster 
 [
 	TriggerTarget(String) : "TriggerTarget"
       TriggerCondition(Choices) : "Trigger Condition" : 0 =
@@ -2083,7 +2097,7 @@
 	]
 ]
 @PointClass base(Monster) size(-16 -16 0, 16 16 72) = monster_zombie : "Scientist Zombie" []
-@PointClass base(Targetname, Angles) size(-16 -16 -16, 16 16 16) = monstermaker : "Monster Maker"
+@PointClass base(Targetname, Angles, MonsterMakerClassification) size(-16 -16 -16, 16 16 16) = monstermaker : "Monster Maker"
 [
 	target(string) : "Target On Release" 
 	monstertype(string) : "Monster Type"
