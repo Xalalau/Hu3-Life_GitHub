@@ -1,4 +1,6 @@
-133
+// 320 é carregado quando a resolução é menor que 640. Muita vagabundagem...
+// O número logo a seguir (na primeira linha não comentada e não vazia) indica a quantidade de sprites nesse arquivo. Se for adicionar algo aqui, acerte-o!!!
+162
 selection		320 320hud1	160	160	80	20
 
 bucket1			320 320hud2	108	16	12	12
@@ -6,8 +8,8 @@ bucket2			320 320hud2	108	28	12	12
 bucket3			320 320hud2	108	40	12	12	
 bucket4			320 320hud2	108	52	12	12
 bucket5			320 320hud2	108	64	12	12	
-bucket6     	320 320hud5 0 	0 	12 	12
-bucket7     	320 320hud5 12	0 	12 	12
+bucket6	 		320 320hud5 0 	0 	12 	12
+bucket7	 		320 320hud5 12	0 	12 	12
 bucket8			320	320hud5 24	0	12	12
 bucket9			320	320hud5 36	0	12	12
 bucket10		320	320hud5 48	0	12	12
@@ -62,21 +64,37 @@ d_shotgun		320	320hud1	48	224	48	16
 d_bolt			320	320hud1	48	240	48	16
 d_crossbow		320	320hud1	48	240	48	16
 d_rpg_rocket	320	320hud1	96	208	48	16
-d_gauss		320	320hud1	96	224	32	16
-d_egon		320	320hud1	96	240	32	16
+d_gauss			320	320hud1	96	224	32	16
+d_egon			320	320hud1	96	240	32	16
 d_hornet		320	320hud1	144	208	48	16
 d_grenade		320	320hud1	144	224	32	16
 d_satchel		320	320hud1	144	240	32	16
 d_tripmine		320	320hud1	192	208	32	16
 d_snark			320	320hud1	192	224	32	16
 d_skull			320	320hud1	192	240	32	16
-d_tracktrain		320	320hud1	224	208	32	16
+d_tracktrain	320	320hud1	224	208	32	16
 
 item_battery	320 320hud2	48	52	20	20
 item_healthkit	320	320hud2	68	52	20	20
 item_longjump	320	320hud2	88	52	20	20
 
-grenade			320 320hud2     36      34      18      18
+grenade			320 320hud2	 36	  34	  18	  18
+
+p_preto			320 piche_preto	0	0	16	16
+p_branco		320 piche_branco	0	0	16	16
+p_vermelho		320 piche_vermelho	0	0	16	16
+p_rosa			320 piche_rosa	0	0	16	16
+p_roxo			320 piche_roxo	0	0	16	16
+p_azul_forte	320 piche_azul_forte	0	0	16	16
+p_azul_fraco	320 piche_azul_fraco	0	0	16	16
+p_verde			320 piche_verde	0	0	16	16
+p_amarelo		320 piche_amarelo	0	0	16	16
+p_laranja		320 piche_laranja	0	0	16	16
+p_fundo_preto	320 piche_f_preto	0	0	16	16
+p_fundo_branco	320 piche_f_branco	0	0	16	16
+p_carlos_adao	320 piche_carlos_adao	0	0	16	16
+p_crosshair 	320 spray_crosshair	0	0	16	16
+// Esse logo acima é o sprite de número 81
 
 //===========================================
 
@@ -88,11 +106,11 @@ bucket2			640 640hud7	188	72	20	20
 bucket3			640 640hud7	208	72	20	20		
 bucket4			640 640hud7	168	92	20	20		
 bucket5			640 640hud7	188	92	20	20		
-bucket6     	640 640hud10 0 	0 	20 	20
-bucket7     	640 640hud10 20	0 	20 	20
-bucket8     	640 640hud10 40	0 	20 	20
-bucket9     	640 640hud10 60	0 	20 	20
-bucket10     	640 640hud10 80	0 	20 	20
+bucket6	 		640 640hud10 0 	0 	20 	20
+bucket7	 		640 640hud10 20	0 	20 	20
+bucket8	 		640 640hud10 40	0 	20 	20
+bucket9	 		640 640hud10 60	0 	20 	20
+bucket10	 	640 640hud10 80	0 	20 	20
 bucket0			640 640hud7	208	92	20	20		
 
 dmg_bio			640 640hud8	128	0	64	64
@@ -146,18 +164,34 @@ d_shotgun		640	640hud1	192	64	48	16
 d_bolt			640	640hud1	192	80	48	16
 d_crossbow		640	640hud1	192	80	48	16
 d_rpg_rocket	640	640hud1	192	96	48	16
-d_gauss		640	640hud1	192	112	32	16
-d_egon		640	640hud1	192	128	32	16
+d_gauss			640	640hud1	192	112	32	16
+d_egon  		640	640hud1	192	128	32	16
 d_hornet		640	640hud1	192	144	48	16
 d_grenade		640	640hud1	192	160	32	16
 d_satchel		640	640hud1	192	176	32	16
 d_tripmine		640	640hud1	192	192	32	16
 d_snark			640	640hud1	192	208	32	16
 d_skull			640	640hud1	192	224	32	16
-d_tracktrain		640	640hud1	192	240	32	16
+d_tracktrain	640	640hud1	192	240	32	16
 
 item_battery	640 640hud2	176	0	44	44
 item_healthkit	640 640hud2	176	48	44	44
 item_longjump	640 640hud2	176	96	44	44
 
-grenade			640 640hud7     48      96      24      24
+grenade			640 640hud7	 48	  96	  24	  24
+
+p_preto			640 piche_preto	0	0	16	16
+p_branco		640 piche_branco	0	0	16	16
+p_vermelho		640 piche_vermelho	0	0	16	16
+p_rosa			640 piche_rosa	0	0	16	16
+p_roxo			640 piche_roxo	0	0	16	16
+p_azul_forte	640 piche_azul_forte	0	0	16	16
+p_azul_fraco	640 piche_azul_fraco	0	0	16	16
+p_verde			640 piche_verde	0	0	16	16
+p_amarelo		640 piche_amarelo	0	0	16	16
+p_laranja		640 piche_laranja	0	0	16	16
+p_fundo_preto	640 piche_f_preto	0	0	16	16
+p_fundo_branco	640 piche_f_branco	0	0	16	16
+p_carlos_adao	640 piche_carlos_adao	0	0	16	16
+p_crosshair 	640 spray_crosshair	0	0	16	16
+// Esse logo acima é o sprite de número 81

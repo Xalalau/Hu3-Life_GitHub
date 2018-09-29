@@ -1,11 +1,29 @@
-// Valve Game Info file
-//  These are key/value pairs.  Certain mods will use different settings.
+//  Valve Game Info file
+//  These are key/value pairs. Certain mods will use different settings.
 //
-game "Half-Life Enhanced"
+//  Detalhes sobre as opções: http://twhl.info/articulator.php?art=2
+
+// Informações básicas
+game "Hu3-Life GitHub"
+gamedir "Hu3-Life_GitHub"
 startmap "c0a0"
 trainmap "t0a0"
+icon "icon" 
+
+// Multijogador
+secure "1"
 mpentity "info_player_deathmatch"
+
+// Coisas inúteis
+date "31/12/2017"
+version "Alpha"
+url_info "http://www.moddb.com/mods/hu3-life"
+
+// Carregar bibliotecas
 gamedll "dlls\hl.dll"
 gamedll_linux "dlls/hl.so"
 gamedll_osx "dlls/hl.dylib"
-secure "1"
+cldll "1"
+
+// Nota
+rating "10.0"
