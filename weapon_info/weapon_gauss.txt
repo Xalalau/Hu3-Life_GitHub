@@ -1,8 +1,0 @@
-"weapon_gauss"
-{
-	"bucket" "3"
-	"position" "1"
-	"primary_ammo" "uranium"
-	"default_ammo" "20"
-	"weight" "20"
-}

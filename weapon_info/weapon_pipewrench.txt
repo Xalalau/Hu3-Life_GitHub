@@ -1,5 +1,0 @@
-"weapon_pipewrench"
-{
-	"bucket" "0"
-	"position" "1"
-}

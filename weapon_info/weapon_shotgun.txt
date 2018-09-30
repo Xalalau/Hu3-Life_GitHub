@@ -1,9 +1,0 @@
-"weapon_shotgun"
-{
-	"bucket" "2"
-	"position" "1"
-	"primary_ammo" "buckshot"
-	"max_magazine" "8"
-	"default_ammo" "12"
-	"weight" "15"
-}

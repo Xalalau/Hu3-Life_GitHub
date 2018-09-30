@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<weapon>
+	<keyvalue key="bucket" value="4"/>
+	<keyvalue key="position" value="4"/>
+	<keyvalue key="primary_ammo" value="Penguins"/>
+	<keyvalue key="default_ammo" value="3"/>
+	<keyvalue key="weight" value="5"/>
+	<keyvalue key="flag" value="LIMITINWORLD"/>
+	<keyvalue key="flag" value="EXHAUSTIBLE"/>
+</weapon>

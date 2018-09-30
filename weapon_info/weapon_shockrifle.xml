@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<weapon>
+	<keyvalue key="bucket" value="6"/>
+	<keyvalue key="position" value="1"/>
+	<keyvalue key="primary_ammo" value="shock_rounds"/>
+	<keyvalue key="default_ammo" value="10"/>
+	<keyvalue key="weight" value="15"/>
+	<keyvalue key="flag" value="NOAUTOSWITCHEMPTY"/>
+	<keyvalue key="flag" value="NOAUTORELOAD"/>
+</weapon>

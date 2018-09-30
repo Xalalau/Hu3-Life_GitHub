@@ -1,5 +1,0 @@
-"weapon_knife"
-{
-	"bucket" "0"
-	"position" "2"
-}

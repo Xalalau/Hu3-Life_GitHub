@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<weapon>
+    <keyvalue key="bucket" value="2"/>
+    <keyvalue key="position" value="1"/>
+    <keyvalue key="primary_ammo" value="buckshot"/>
+    <keyvalue key="max_magazine" value="8"/>
+    <keyvalue key="default_ammo" value="12"/>
+    <keyvalue key="weight" value="15"/>
+</weapon>
