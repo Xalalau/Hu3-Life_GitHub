@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<config>
+	<cvars>
+		<keyvalue key="sv_gravity" value="400"/>
+		<keyvalue key="mp_friendlyfire" value="1"/>
+	</cvars>
+	<entity_classifications>
+		<relationship>
+			<keyvalue key="source" value="HUMAN_MILITARY"/>
+			<keyvalue key="target" value="HUMAN_PASSIVE"/>
+			<keyvalue key="relationship" value="R_AL"/>
+			<keyvalue key="biDirectional" value="1"/>
+		</relationship>
+		<relationship>
+			<keyvalue key="source" value="HUMAN_MILITARY"/>
+			<keyvalue key="target" value="ALIEN_MILITARY"/>
+			<keyvalue key="relationship" value="R_AL"/>
+			<keyvalue key="biDirectional" value="1"/>
+		</relationship>
+		<relationship>
+			<keyvalue key="source" value="HUMAN_PASSIVE"/>
+			<keyvalue key="target" value="ALIEN_MILITARY"/>
+			<keyvalue key="relationship" value="R_AL"/>
+			<keyvalue key="biDirectional" value="1"/>
+		</relationship>
+		<relationship>
+			<keyvalue key="source" value="PLAYER"/>
+			<keyvalue key="target" value="ALIEN_MILITARY"/>
+			<keyvalue key="relationship" value="R_AL"/>
+			<keyvalue key="biDirectional" value="1"/>
+		</relationship>
+		<relationship>
+			<keyvalue key="source" value="PLAYER"/>
+			<keyvalue key="target" value="HUMAN_MILITARY"/>
+			<keyvalue key="relationship" value="R_AL"/>
+			<keyvalue key="biDirectional" value="1"/>
+		</relationship>
+	</entity_classifications>
+</config>
+
+	
