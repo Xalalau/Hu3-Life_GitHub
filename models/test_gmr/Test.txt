@@ -1,1 +1,0 @@
-"models/barney.mdl" "models/scientist.mdl"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<plugins>
+	<plugin>
+		<keyvalue key="name" value="TestPlugin"/>
+		<keyvalue key="script" value="TestPlugin"/>
+		<keyvalue key="lifetime" value="MAP"/>
+	</plugin>
+	<plugin>
+		<keyvalue key="name" value="TestPlugin2"/>
+		<keyvalue key="script" value="TestPlugin"/>
+		<keyvalue key="lifetime" value="HOTRELOADABLE"/>
+	</plugin>
+	<plugin>
+		<keyvalue key="name" value="CustomEntityTest"/>
+		<keyvalue key="script" value="CustomEntityTest"/>
+		<keyvalue key="lifetime" value="HOTRELOADABLE"/>
+	</plugin>
+</plugins>
