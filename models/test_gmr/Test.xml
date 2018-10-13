@@ -1,3 +1,7 @@
+<!--
+	https://github.com/SamVanheer/HLEnhanced/commit/fd2348732d5a2609c6cd728a620e978423fed4e1
+	https://github.com/SamVanheer/HLEnhanced/commit/1d6d0705726830219eced1132a4ae888296326a9
+-->
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <replacement_map>
 	<keyvalue key="models/barney.mdl" value="models/scientist.mdl"/>

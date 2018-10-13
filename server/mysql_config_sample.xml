@@ -10,6 +10,10 @@
 	This defines the default configuration for MySQL connections made by scripts.
 	This is only an example and will not work on any servers that have been properly configured.
 	If it does work, please configure your MySQL server correctly.
+	
+	https://github.com/SamVanheer/HLEnhanced/commit/84d81931faa4d8587cc9cd96a63e99f8f4988db6
+
+	Obs: Isso aqui deve estar errado. Tem que ver o commit e descobrir como que funciona
 -->
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <default_mysql_connection>

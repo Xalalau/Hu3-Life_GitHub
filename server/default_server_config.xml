@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <config>
+	<!--
+	https://github.com/SamVanheer/HLEnhanced/commit/46b8aba017e34bd58030f60f97af189502eea9fd
+
+	Ex:
+	<cvar name="mp_friendlyfire" value="1"/>
+	<entity_classifications>
+		<cvar name="source" value="HUMAN_MILITARY"/>
+		<cvar name="target" value="HUMAN_PASSIVE"/>
+		<cvar name="relationship" value="R_AL"/>
+		<cvar name="biDirectional" value="1"/>
+	</entity_classifications>
+	-->
 </config>

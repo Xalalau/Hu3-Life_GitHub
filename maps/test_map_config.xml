@@ -1,41 +1,38 @@
+<!--
+	https://github.com/SamVanheer/HLEnhanced/commit/46b8aba017e34bd58030f60f97af189502eea9fd
+-->
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <config>
-	<cvars>
-		<keyvalue key="sv_gravity" value="400"/>
-		<keyvalue key="mp_friendlyfire" value="1"/>
-	</cvars>
+	<cvar name="sv_gravity" value="400"/>
+	<cvar name="mp_friendlyfire" value="1"/>
 	<entity_classifications>
-		<relationship>
-			<keyvalue key="source" value="HUMAN_MILITARY"/>
-			<keyvalue key="target" value="HUMAN_PASSIVE"/>
-			<keyvalue key="relationship" value="R_AL"/>
-			<keyvalue key="biDirectional" value="1"/>
-		</relationship>
-		<relationship>
-			<keyvalue key="source" value="HUMAN_MILITARY"/>
-			<keyvalue key="target" value="ALIEN_MILITARY"/>
-			<keyvalue key="relationship" value="R_AL"/>
-			<keyvalue key="biDirectional" value="1"/>
-		</relationship>
-		<relationship>
-			<keyvalue key="source" value="HUMAN_PASSIVE"/>
-			<keyvalue key="target" value="ALIEN_MILITARY"/>
-			<keyvalue key="relationship" value="R_AL"/>
-			<keyvalue key="biDirectional" value="1"/>
-		</relationship>
-		<relationship>
-			<keyvalue key="source" value="PLAYER"/>
-			<keyvalue key="target" value="ALIEN_MILITARY"/>
-			<keyvalue key="relationship" value="R_AL"/>
-			<keyvalue key="biDirectional" value="1"/>
-		</relationship>
-		<relationship>
-			<keyvalue key="source" value="PLAYER"/>
-			<keyvalue key="target" value="HUMAN_MILITARY"/>
-			<keyvalue key="relationship" value="R_AL"/>
-			<keyvalue key="biDirectional" value="1"/>
-		</relationship>
+		<cvar name="source" value="HUMAN_MILITARY"/>
+		<cvar name="target" value="HUMAN_PASSIVE"/>
+		<cvar name="relationship" value="R_AL"/>
+		<cvar name="biDirectional" value="1"/>
+	</entity_classifications>
+	<entity_classifications>
+		<cvar name="source" value="HUMAN_MILITARY"/>
+		<cvar name="target" value="ALIEN_MILITARY"/>
+		<cvar name="relationship" value="R_AL"/>
+		<cvar name="biDirectional" value="1"/>
+	</entity_classifications>
+	<entity_classifications>
+		<cvar name="source" value="HUMAN_PASSIVE"/>
+		<cvar name="target" value="ALIEN_MILITARY"/>
+		<cvar name="relationship" value="R_AL"/>
+		<cvar name="biDirectional" value="1"/>
+	</entity_classifications>
+	<entity_classifications>
+		<cvar name="source" value="PLAYER"/>
+		<cvar name="target" value="ALIEN_MILITARY"/>
+		<cvar name="relationship" value="R_AL"/>
+		<cvar name="biDirectional" value="1"/>
+	</entity_classifications>
+	<entity_classifications>
+		<cvar name="source" value="PLAYER"/>
+		<cvar name="target" value="HUMAN_MILITARY"/>
+		<cvar name="relationship" value="R_AL"/>
+		<cvar name="biDirectional" value="1"/>
 	</entity_classifications>
 </config>
-
-	
