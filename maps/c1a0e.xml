@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <config>
-	<cvar name="nophysics_in_coop" value="test_lab_entry_door"/> <!-- tldoor -->
-	<cvar name="teleport_all_in_coop" value="killtele1;killtele2;v_green_room1;w_green_room1;hu3_saida_w;hu3_saida_v;hu3_saida_acre"/>
-	<cvar name="remove_in_coop" value="c1a0btoe"/>
-	<cvar name="remove_in_sp" value="change_level_hu3"/>
+	<cvar name="coop_nophysics" value="test_lab_entry_door"/> <!-- tldoor -->
+	<cvar name="coop_teleport_plys" value="killtele1;killtele2;v_green_room1;w_green_room1;hu3_saida_w;hu3_saida_v;hu3_saida_acre"/>
+	<cvar name="coop_remove" value="c1a0btoe"/>
+	<cvar name="sp_remove" value="change_level_hu3"/>
 </config>
