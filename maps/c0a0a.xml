@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <config>
-	<cvar name="coop_trainspawnpoint" value="train"/>
-	<cvar name="coop_remove" value="c0a0toa;c0a0tob;ch_lvl_sp"/>
-	<cvar name="sp_remove" value="cooptrans"/>
-</config>
+	<cvar name="coop_train_spawnpoint" value="train"/>
+	<cvar name="coop_train_delay" value="6"/>
+	<cvar name="coop_remove" value="c0a0toa;c0a0tob;ch_lvl_sp;audiomm"/>
+	<cvar name="sp_remove" value="cooptrans;audiomm_coop"/>
+	</config>

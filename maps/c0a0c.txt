@@ -1,7 +1,0 @@
-"config"
-{
-	"cvars"
-	{
-		mp_hu3_trainspawnpoint lower37
-	}
-}
