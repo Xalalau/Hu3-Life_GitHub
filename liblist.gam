@@ -5,7 +5,7 @@
 
 // Informações básicas
 game "Hu3-Life GitHub"
-gamedir "Hu3-Life_GitHub"
+gamedir "H3LEnhanced-Game"
 startmap "c0a0"
 trainmap "t0a0"
 icon "icon" 
@@ -15,7 +15,7 @@ secure "1"
 mpentity "info_player_deathmatch"
 
 // Coisas inúteis
-date "31/12/2017"
+date "19/10/2018"
 version "Alpha"
 url_info "http://www.moddb.com/mods/hu3-life"
 
