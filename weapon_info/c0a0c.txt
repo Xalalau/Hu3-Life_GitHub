@@ -1,0 +1,10 @@
+"config"
+{
+	"cvars"
+	{
+		"coop_train_spawnpoint" "train"
+		coop_train_delay 6
+		"coop_remove" "c0a0ctod;c0a0btoc;audiomm"
+		"sp_remove" "cooptrans;audiomm_coop"
+	}
+}

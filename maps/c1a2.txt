@@ -1,0 +1,8 @@
+"config"
+{
+	"cvars"
+	{
+		"coop_remove" "ratalandia"
+		"coop_nophysics" "startele1"
+	}
+}

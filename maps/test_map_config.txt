@@ -1,0 +1,51 @@
+"config"
+{
+	"cvars"
+	{
+		"sv_gravity" "400"
+		mp_friendlyfire 1
+	}
+	
+	"entity_classifications"
+	{
+		"relationship"
+		{
+			source HUMAN_MILITARY
+			target HUMAN_PASSIVE
+			relationship R_AL
+			biDirectional 1
+		}
+		
+		"relationship"
+		{
+			source HUMAN_MILITARY
+			target ALIEN_MILITARY
+			relationship R_AL
+			biDirectional 1
+		}
+		
+		"relationship"
+		{
+			source HUMAN_PASSIVE
+			target ALIEN_MILITARY
+			relationship R_AL
+			biDirectional 1
+		}
+		
+		"relationship"
+		{
+			source PLAYER
+			target ALIEN_MILITARY
+			relationship R_AL
+			biDirectional 1
+		}
+		
+		"relationship"
+		{
+			source PLAYER
+			target HUMAN_MILITARY
+			relationship R_AL
+			biDirectional 1
+		}
+	}
+}

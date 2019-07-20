@@ -1,0 +1,7 @@
+"config"
+{
+	"cvars"
+	{
+		"coop_nophysics" "lk1;lk2"
+	}
+}

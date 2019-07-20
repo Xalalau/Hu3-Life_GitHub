@@ -1,0 +1,10 @@
+"config"
+{
+	"cvars"
+	{
+		"coop_nophysics" "test_lab_entry_door"
+		"coop_teleport_plys" "killtele1;killtele2;v_green_room1;w_green_room1;hu3_saida_w;hu3_saida_v;hu3_saida_acre"
+		"coop_remove" "c1a0btoe"
+		"sp_remove" "change_level_hu3"
+	}
+}
