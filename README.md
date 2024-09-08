@@ -1,4 +1,4 @@
-Mod de testes do Hu3-Life. NÃO É O HU3-LIFE!!
+Mod de testes do Hu3-Life. NÃO É O HU3-LIFE!!!
 
 ```
 Half-Life Enhanced game
